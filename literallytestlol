@@ -1,0 +1,5 @@
+local args = {
+    [1] = "Arcane"
+}
+
+game:GetService("ReplicatedStorage").Events.Equip:InvokeServer(unpack(args))
